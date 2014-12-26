@@ -1,0 +1,99 @@
+#lpmenu { 
+	float: left;
+
+}
+#lpcontent {
+	float: right;
+
+}
+
+#Ybtn{
+	width: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height: 30px; 
+	font-weight: bold;
+	background-color: #303030;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px; 
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin: 1px 0;
+	color: #fff; 
+}
+
+#Ybtn:hover  {
+font-size: 1.1em;
+}
+
+#Ybtnicon{
+	float: left;
+}
+
+#Ybtnicon img{
+	float: left;
+	width: 30px;
+	height: 30px;
+	overflow: visible;
+}
+
+#Yundermenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	min-height: 50px;
+	min-width: 200px;
+	background-color: #C0C0C0;
+	border-radius: 3px; 
+}
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 10pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+#outcell{
+background: #CDCDCD;
+}
+
+	
+select { 
+font-size: 8pt;  
+background-color: ivory;   
+padding: 1px; 
+border:1px solid; 
+width: 150px; 
+} 
+
+option { 
+padding: 0px 0px;  
+}
